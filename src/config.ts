@@ -8,18 +8,18 @@ export const SITE = {
     logoText: "Portfolio",
     lang: "en",
     favicon: "/favicon.png",
-    repository: "https://github.com/vito8916/simple-portfolio.git",
-    author: "Victor Alvarado",
-    profile: "https://victoralvarado.dev/",
+    repository: "https://github.com/JesusxAguirre/astro-portfolio",
+    author: "Jesus Aguirre",
+    profile: "https://jesusaguirre.dev/",
 }
 
 export const ME = {
-    name: "VicBox Dot Dev",
-    profession: "Software Engineer | Full Stack Developer",
-    profileImage: "pp2.png",
+    name: "Jesus Aguirre",
+    profession: "Software Engineer | Flutter developer",
+    profileImage: "profile.png",
     profileFacts: [
         {
-            value: 10,
+            value: 2,
             description: "Years of Experience"
         },
         {
@@ -27,52 +27,28 @@ export const ME = {
             description: "Completed Projects"
         },
         {
-            value: 4,
+            value: 7,
             description: "Satisfied Clients"
         }
     ],
     contactInfo: {
-        email: "vicbox.dev@vicbox.dev",
-        linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
+        email: "jesus.appdev@gmail.com",
+        linkedin: "https://www.linkedin.com/in/jesusaguirrebastidas",
         resumeDoc: "resume.pdf",
     },
-    aboutMe: "I am a software engineer with a passion for web development. I have experience in building web " + "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " + "sharing knowledge with others.",
+    aboutMe: "Mobile Developer specialized in Flutter, with proven experience delivering high-performance cross-platform apps to production." + "Strong expertise in secure authentication (Google, Apple, Email), real-time features, push notifications (Firebase FCM), and geolocation services with Google Maps SDK or Mapbox SDK." + "Hands-on experience in CI/CD automation with Codemagic, streamlining delivery pipelines and successfully publishingapps on both App Store and Play Store."
 }
 
 export const SOCIALS = [
     {
-        name: "Twitter",
-        url: "https://twitter.com/vicbox.dev",
-        icon: "twitter-x-fill",
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/jesusaguirrebastidas",
+    icon: "linkedin-x-fill",
         show: true
-    },
-    {
-        name: "Facebook",
-        url: "https://www.facebook.com/vicbox.dev",
-        icon: "facebook-fill",
-        show: false
-    },
-    {
-        name: "Instagram",
-        url: "https://www.instagram.com/vicbox.dev",
-        icon: "instagram-fill",
-        show: true
-    },
-    {
-        name: "Youtube",
-        url: "https://www.youtube.com/vicbox.dev",
-        icon: "youtube-fill",
-        show: true
-    },
-    {
-        name: "TikTok",
-        url: "https://tiktok.com/vicbox.dev",
-        icon: "tik-fill",
-        show: false
     },
     {
         name: "GitHub",
-        url: "https://github.com/vicbox.dev",
+        url: "https://github.com/JesusxAguirre",
         icon: "github-fill",
         show: true
     }
