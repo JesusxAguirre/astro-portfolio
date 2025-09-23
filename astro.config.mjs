@@ -1,5 +1,5 @@
 // @ts-check
-import {defineConfig} from 'astro/config';
+import {defineConfig, passthroughImageService} from 'astro/config';
 import mdx from "@astrojs/mdx";
 
 import react from "@astrojs/react";
@@ -12,7 +12,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://simple-portfolio.vicbox.dev/',
+    site: 'https://astro-portfolio-git-master-jesusxaguirres-projects.vercel.app/',
     integrations: [mdx(), react(), tailwind({
         applyBaseStyles: false,
     }), icon(), sitemap()],
@@ -24,4 +24,8 @@ export default defineConfig({
     },
     experimental: {
         svg: true,
-    }});
+    },
+     image: {
+   service: passthroughImageService(),
+ },
+});

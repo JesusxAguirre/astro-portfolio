@@ -1,5 +1,5 @@
 export const SITE = {
-    website: "https://simple-portfolio.vicbox.dev", // replace this with your deployed domain
+    website: "https://astro-portfolio-git-master-jesusxaguirres-projects.vercel.app/", // replace this with your deployed domain
     title: "Simple Portfolio",
     description: "A simple but beautiful portfolio created with Astro",
     tags: ["portfolio", "Resume cv", "Astro"],
@@ -10,7 +10,7 @@ export const SITE = {
     favicon: "/favicon.png",
     repository: "https://github.com/JesusxAguirre/astro-portfolio",
     author: "Jesus Aguirre",
-    profile: "https://jesusaguirre.dev/",
+    profile: "https://astro-portfolio-git-master-jesusxaguirres-projects.vercel.app/",
 }
 
 export const ME = {
