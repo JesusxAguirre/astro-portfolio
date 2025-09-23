@@ -36,7 +36,7 @@ export const ME = {
         linkedin: "https://www.linkedin.com/in/jesusaguirrebastidas",
         resumeDoc: "resume.pdf",
     },
-    aboutMe: "Mobile Developer specialized in Flutter, with proven experience delivering high-performance cross-platform apps to production." + "Strong expertise in secure authentication (Google, Apple, Email), real-time features, push notifications (Firebase FCM), and geolocation services with Google Maps SDK or Mapbox SDK." + "Hands-on experience in CI/CD automation with Codemagic, streamlining delivery pipelines and successfully publishingapps on both App Store and Play Store."
+aboutMe: "Software Engineer passionate about solving problems through clean, simple, and effective solutions. Specialized in Flutter, I build and deliver high-performance cross-platform mobile applications from idea to production. Experienced in secure authentication (Google, Apple, Email), real-time features, push notifications (Firebase FCM), and geolocation services (Google Maps SDK, Mapbox SDK). Skilled in CI/CD automation with Codemagic, streamlining delivery pipelines and successfully publishing apps on both App Store and Play Store."
 }
 
 export const SOCIALS = [
